@@ -52,7 +52,7 @@ To further examine how Mechacar performs against the competition, we could exami
 
 ### What metric or metrics are you going to test?
 - significance level: to determine what will be considered statistically significant for the purposes of this analysis
-- r-sqaured value: used to determine if future data points will determine the likelihood that future data points will fit the linear model.
+- r-sqaured value: used to determine if how likely future data points will be to fit the linear model
 - p-value: this would be used to determine the statistical significance of the analysis
 
 ### What is the null hypothesis or alternative hypothesis?
