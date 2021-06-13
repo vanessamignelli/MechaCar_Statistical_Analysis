@@ -26,12 +26,21 @@ However, when reviewing each lot individually, the design specifications are onl
 
 ## T-Tests on Suspension Coils
 
-### Summary of t-test
+### Summary of t-tests
+In this section, various t-test analyses were performed to compare the sample means of different datasets against the population mean. Through this, we are able to measure if there is a statistically significant difference between the means. In this case, a one-sample t-test was performed for each of the analyses below.
+
+The first t-test was used to determine if the PSI across all manufacturing lots were statistically different from the population mean. Based on the p-value of 0.06, it can be concluded that the two means are statistically similar because the p-value is greater than the significance level of 0.05.
 
 ![ttest_1.png](https://github.com/vanessamignelli/MechaCar_Statistical_Analysis/blob/main/resources/ttest_1.png)
 
+The second t-test was used to determine if the PSI of lot 1 was statistically different from the population mean. Based on the p-value of 1, it can be concluded that the two means are statistically similar because the p-value is greater than the significance level of 0.05.
+
 ![ttest_2.png](https://github.com/vanessamignelli/MechaCar_Statistical_Analysis/blob/main/resources/ttest_2.png)
 
+The third t-test was used to determine if the PSI of lot 2 was statistically different from the population mean. Based on the p-value of 0.61, it can be concluded that the two means are statistically similar because the p-value is greater than the significance level of 0.05.
+
 ![ttest_3](https://github.com/vanessamignelli/MechaCar_Statistical_Analysis/blob/main/resources/ttest_3.png)
+
+The fourth t-test was used to determine if the PSI of lot 3 was statistically different from the population mean. Based on the p-value of 0.04, it can be concluded that the two means are statistically different. In this case we were reject the null hypothesis because the p-value is less than the significance level of 0.05.
 
 ![ttest_4](https://github.com/vanessamignelli/MechaCar_Statistical_Analysis/blob/main/resources/ttest_4.png)
