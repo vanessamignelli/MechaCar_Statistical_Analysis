@@ -11,4 +11,4 @@ The slope of the linear model is not considered to be zero. This is because the 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 It can be determined that the linear model predicts mpg of MechCar prototypes effectively. This is because the r-squared value is 0.7149, meaning approximately 71% of the variability of our dependent variables is explained using the linear model. 
 
-![deliverable_one.png]("https://github.com/vanessamignelli/MechaCar_Statistical_Analysis/blob/main/resources/deliverable_one.png")
+![deliverable_one.png](https://github.com/vanessamignelli/MechaCar_Statistical_Analysis/blob/main/resources/deliverable_one.png)
