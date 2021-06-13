@@ -44,3 +44,27 @@ The third t-test was used to determine if the PSI of lot 2 was statistically dif
 The fourth t-test was used to determine if the PSI of lot 3 was statistically different from the population mean. Based on the p-value of 0.04, it can be concluded that the two means are statistically different. In this case we were reject the null hypothesis because the p-value is less than the significance level of 0.05.
 
 ![ttest_4](https://github.com/vanessamignelli/MechaCar_Statistical_Analysis/blob/main/resources/ttest_4.png)
+
+## Study Design: MechaCar vs Competition
+
+### Description of Test
+To further examine how Mechacar performs against the competition, we could examine the safety rating, highway/city fuel efficiency and maintenance cost against the initial cost to purchase the vehicle.
+
+### What metric or metrics are you going to test?
+- significance level: to determine what will be considered statistically significant for the purposes of this analysis
+- r-sqaured value: used to determine if future data points will determine the likelihood that future data points will fit the linear model.
+- p-value: this would be used to determine the statistical significance of the analysis
+
+### What is the null hypothesis or alternative hypothesis?
+The null hypothesis for this analysis would be: The slope of the linear model is zero. This would mean that there is no significant linear relationship and that each dependent value would be determined by chance.
+
+### What statistical test would you use to test the hypothesis? And why?
+We would run a multiple linear regression to test this hypothesis to be able to determine how the multiple idependent variables (safety rating, maintenence cost, city/highway fuel effieciency) account for variability in our dependent variable (initial cost).
+
+### What data is needed to run the statistical test?
+To run this test we would need a dataset consisting of the following values for various vehicles:
+- safety rating
+- highway fuel efficiency
+- city fuel efficiency
+- maintenance cost
+- initial car price
